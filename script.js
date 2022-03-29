@@ -2,18 +2,22 @@ var numSort = []
 var numEsco = []
 
 function sorteio() {
+    if(numEsco.length == 6 && numEsco.findIndex(null) == ){
     var cont = 0
     numSort = []
 
     while(cont < 6){
-    let num = Math.random() *60
+    let num = Math.random() * 60;
     num = Math.ceil(num)
     if(!numSort.includes(num)){
         numSort[cont] = num
         console.log(numSort)
         cont++
         }
-    }
+    } document.getElementById("Sorteados").innerHTML = numSort;
+} else{
+    alert("É necessario digitar os 6 números, antes do sorteio")
+}
 
 document.getElementById("sorteados").innerHTML = numSort
 contAcertos()
