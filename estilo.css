@@ -7,7 +7,7 @@ header{
 
 h1, h3{
     font-size: 5em;
-    color: red;
+    color: rgb(255, 0, 191);
     font-family:'Times New Roman', Times, serif;
     letter-spacing: 3px;
     font-weight: bolder;
@@ -16,7 +16,7 @@ h1, h3{
 }
 
 h3{
-    color:crimson;
+    color:rgb(100, 85, 241);
     font-size: 2em;
     font-style: normal;
     font-variant: normal;
@@ -37,17 +37,17 @@ h3{
     width: 1.5em;
     font-size: 4em;
     margin-right: 15px;
-    background-color: darksalmon;
+    background-color: rgb(127, 114, 250);
 }
 
 .btnSort > button{
     font-size: 2em;
     padding: 10px 25px;
-    background-color: firebrick;
+    background-color: rgb(252, 166, 230);
 }
 
 footer{
-    background-color: rgb(209, 122, 122);
+    background-color: rgb(252, 166, 230);
     height: 100px;
     width: 100%;
     margin: 0;
