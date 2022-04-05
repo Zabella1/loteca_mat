@@ -1,30 +1,26 @@
-var numSort = []
 var numEsco = []
-var contA 
 
-function sorteio() { 
-    if(numEsco.length == 6){
-        var cont = 0
-        numSort = []
+function sorteio() {
+    if(numEsco.length == 6 && numEsco.findIndex(null) == ){
+    var cont = 0
+    numSort = []
 
     while(cont < 6){
-        let num = Math.random() *60
-        num = Math.ceil(num)
-        if(!numSort.includes(num)){
-            numSort[cont] = num
-            console.log(numSort)
-            cont++
-            }
+    let num = Math.random() * 60;
+    num = Math.ceil(num)
+    if(!numSort.includes(num)){
+        numSort[cont] = num
+        console.log(numSort)
+        cont++
         }
-    }
-
-document.getElementById("sorteados").innerHTML = numSort
-        contAcertos()
-    }else{
-        alert("É necessário digitar seis números válidos!")
-    }
+    } document.getElementById("Sorteados").innerHTML = numSort;
+} else{
+    alert("É necessario digitar os 6 números, antes do sorteio")
 }
 
+document.getElementById("sorteados").innerHTML = numSort
+contAcertos()
+}
 function getValor(valor, pos){
     valor = Number(valor)
     if(valor <= 0 || valor > 60){
@@ -38,13 +34,7 @@ function getValor(valor, pos){
     console.log(numEsco)
     }
 }
-
 function contAcertos(){
     numEsco.forEach(function(value,index){
         if(numSort.includes(value)){
             contA = contA +1
-        }
-    })
-    
-    document.getElementById("acertos").innerHTML = contA
-}
