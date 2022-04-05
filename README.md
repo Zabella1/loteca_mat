@@ -18,3 +18,12 @@ quantos ele acertou
 
 ### disponibilizado em
 [GitHubPage](https://zabella1.github.io/loteca_mat/)
+
+
+### Prints da tela
+ | ID | Primeira tela | Segunda tela |
+ |----|---------------|---------------|
+ | 1 | loteca Limpa | Loteca preenchida |
+ | 2 | ![Tela loteca não preenchida](https://user-images.githubusercontent.com/100212995/161781603-22720b28-7950-42a4-a59e-0db5a87cf22e.png) | ![image](https://user-images.githubusercontent.com/100212995/161782613-9f7ef9a5-1b01-4fa8-87a3-ca83722c1c4d.png)
+
+ 
