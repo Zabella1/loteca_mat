@@ -1,45 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Loteca - Simulador de loteria</title>
-</head>
-<body>
-    <header>
-        <h1>Loteca</h1>
-        <h3>Simulador de Loteria</h3>
-    </header>
+# Projeto Loteca
+Este é um projeto de simulador de loteria,
+onde o usuário  digita 6 numeros e realiza um
+sorteio de outros 6 numeros no final é verificado 
+quantos ele acertou
 
-    <div class="selecao">
-    <input type="number" id="num1" class="num" onchange="getValor(value,0)">
-    <input type="number" id="num2" class="num" onchange="getValor(value,1)">
-    <input type="number" id="num3" class="num" onchange="getValor(value,2)">
-    <input type="number" id="num4" class="num" onchange="getValor(value,3)">
-    <input type="number" id="num5" class="num" onchange="getValor(value,4)">
-    <input type="number" id="num6" class="num" onchange="getValor(value,5)">
-    </div>
+## Tecnologias utilizadas
+- **HTML**: estrutura do site
+- _CSS_: Estilização do site
+- *_JS_*: funções do site
+- ~~BootStrap~~: Não foi utilizado
 
-    <div class ="btnSort">
-    <button onclick="sorteio()">Sortear</button>
-    </div>
+### Melhorias possiveis
+1. [ ] Subir para GitHubPages
+2. [ ] Alterar os Alerts
+3. [ ] Utilizar o Bootstrap
+4. [ ] Deixar responsivo
 
-    <div class="sorteio">
-        <h4>Numeros Sorteados:</h4>
-        <p id="sorteados"></p>
-    </div>
-
-    <div class="acertos">
-        <h4>Acertos</h4>
-        <p id="acertos"></p>
-    </div>
-
-    <footer>
-        <p>Desenvolvido por <a href="https://github.com/Zabella1">@Zabella1</a></p>
-    </footer>
-    <script src="script.js"></script>
-
-</body>
-</html>
+### disponibilizado em
+[GitHubPage](https://zabella1.github.io/loteca_mat/)
